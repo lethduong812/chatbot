@@ -1,0 +1,65 @@
+# Gitignore cho Chatbot Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+faiss_index/
+*.ipynb_checkpoints/
+research/.ipynb_checkpoints/
+
+# Data files (PDF tài liệu - KHÔNG push lên GitHub)
+data/
+*.pdf
+
+# Evaluation results
+evaluation_results_*.json
+
+# Chat logs
+chat_history.jsonl
+logs/
+
+# Poppler binary (tự động download)
+poppler/
+
+# Logs
+*.log
